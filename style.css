@@ -2,3 +2,14 @@ body, html, div, main, header {
     margin: 0;
     padding: 0;
 }
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows: 14vw;
+}
+
+.day {
+    background-color: lightseagreen;
+    margin: 2%;
+}
