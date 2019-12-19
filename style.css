@@ -6,10 +6,17 @@ body, html, div, main, header {
 .calendar {
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr;
     grid-auto-rows: 14vw;
+    height: 100vw;
 }
 
 .day {
     background-color: lightseagreen;
     margin: 2%;
+}
+
+.calendar-header{
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
