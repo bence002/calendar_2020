@@ -30,9 +30,10 @@ body, html, div, main, header, h1 {
     grid-column-end: -1;
     display: flex;
     align-items: flex-end;
+    /* An element can be IN A GRID, but also can be a CONTAINER for a child element. */
     background-image: url(assets/duotone.png);
     background-size: cover;
-    /* An element can be IN A GRID, but also can be a CONTAINER for a child element. */
+    background-attachment: fixed;
 }
 
 .space {
