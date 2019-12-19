@@ -1,6 +1,7 @@
 body, html, div, main, header {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .calendar {
@@ -24,11 +25,12 @@ body, html, div, main, header {
     grid-column-end: -1;
     display: flex;
     align-items: flex-end;
+    background-image: url(assets/duotone.png);
+    background-size: cover;
     /* An element can be IN A GRID, but also can be a CONTAINER for a child element. */
 }
 
 .space {
-    background-color: purple;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
