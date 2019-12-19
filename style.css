@@ -8,15 +8,32 @@ body, html, div, main, header {
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: 1fr;
     grid-auto-rows: 14vw;
-    height: 100vw;
+    height: 100vh;
+    /* Watch out:
+"vw" is for VIEWPORT WIDTH and
+"vh" is for VIEWPORT HEIGHT  */
 }
 
 .day {
     background-color: lightseagreen;
-    margin: 2%;
+    margin: 0.3em;
 }
 
 .calendar-header{
     grid-column-start: 1;
     grid-column-end: -1;
+    display: flex;
+    align-items: flex-end;
+    /* An element can be IN A GRID, but also can be a CONTAINER for a child element. */
+}
+
+.space {
+    background-color: purple;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.calendar-title {
+    /* Watch out to have the flexbox in the CONTAINER! */
 }
