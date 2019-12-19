@@ -16,8 +16,13 @@ body, html, div, main, header {
 }
 
 .day {
-    background-color: lightseagreen;
-    margin: 0.3em;
+    background-color: #fff;
+    border: solid 0.3em #3f1f8a;
+    margin: 0.2em;
+    border-radius: 2px;
+    padding: 0.5em;
+    font-style: bold;
+    color: #3f1f8a;
 }
 
 .calendar-header{
@@ -38,4 +43,16 @@ body, html, div, main, header {
 
 .calendar-title {
     /* Watch out to have the flexbox in the CONTAINER! */
+    font-size: 6em;
+    background-color: #3f1f8a;
+    color: #fff;
+    /* margin-left: 0.3em; */
+    margin-bottom: 0.2em;
+    padding: 0.2em 0.4em;
+    line-height: 1.3;
+    border-bottom: solid 0.1em #3f1f8a;
+}
+
+.day-29 {
+    border: solid 0.3em #8a1f85;
 }
