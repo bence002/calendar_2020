@@ -1,4 +1,4 @@
-body, html, div, main, header {
+body, html, div, main, header, h1 {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
@@ -44,15 +44,15 @@ body, html, div, main, header {
 .calendar-title {
     /* Watch out to have the flexbox in the CONTAINER! */
     font-size: 6em;
-    background-color: #3f1f8a;
     color: #fff;
+    background-color: #3f1f8a;
     /* margin-left: 0.3em; */
     margin-bottom: 0.2em;
     padding: 0.2em 0.4em;
     line-height: 1.3;
-    border-bottom: solid 0.1em #3f1f8a;
 }
 
-.day-29 {
+.day-29, {
     border: solid 0.3em #8a1f85;
+    background-color: rgb(253, 232, 232);
 }
